@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main h1{
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+
+#main >h1 span{
+    margin: 0 15px;
+    display: flex;
+
+    align-items: center;
+
+}
+
+#main >h1 span img{
+    height: 40px;
+    transition: 0.3s ease;
+
+}
+#main>#endec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#main>#endec h3 {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 6px 15px;
+    margin: 0px 20px;
+    width: fit-content;
+    cursor: pointer;
+    
+}
+
+#main>#endec #encrypt{
+    background-color: #333;
+}
+
+#main>#enedec h3 span{
+   
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#main>#endec h3 span img{
+    height: 30px;
+    width: 30px;
+    padding-top: 4px;
+    margin: 5px;
+
+}
+
+#encryption{
+    width: 45%;
+    
+    display: block;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#decryption{ 
+    width: 45%;
+    
+    display: none;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+textarea{
+    background-color: #1C1C1C;
+    width:90%;
+    margin: 3% 5%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid white;
+}
+#decryption #result{
+    display: none;
+    height: fit-content;
+
+}
+#encryption #enresult{
+    height: fit-content;
+    display: none;
+}
+input{
+    background-color: #1C1C1C;
+    width:90%;
+    margin: 3% 5%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+button{
+    background-image: linear-gradient(to bottom right, #1C1C1C, #1c1c1ce1);
+    width:90%;
+    cursor: pointer;
+    margin: 3% 5%;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+}
+
+h5{
+    color: #757575;
+    padding-left: 20px;
+}
+button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button span img{
+    
+    margin: 10px;
+    height: 40px;
+    
+}
+button:hover{
+    background-image: linear-gradient(to bottom right, #1c1c1ce1, #1C1C1C);
+}
